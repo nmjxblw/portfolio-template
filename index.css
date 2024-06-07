@@ -471,10 +471,18 @@ body:not(.user-is-tabbing) a:focus {
     flex: 0 0 30%;
 }
 
+.work_role {
+    flex: 0 0 30%;
+}
+
 .work__list {
     /* list-style-type: square; */
     list-style-position: inside;
     margin-bottom: var(--gutter-normal);
+}
+
+.indented-list {
+    padding-left: 20px;
 }
 
 .work__code {
